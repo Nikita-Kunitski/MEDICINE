@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.uedeck.medicine.MainActivity">
+
+<Button
+    android:id="@+id/intentAdd"
+    android:background="@drawable/btn_back"
+    android:layout_marginTop="115dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Добавление"
+    android:textColor="#Fff"/>
+    <Button
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_back"
+        android:id="@+id/allList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Получить весь список"
+        android:textColor="#Fff"/>
+    <Button
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_back"
+        android:textColor="#Fff"
+        android:id="@+id/intentDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Удаление"
+        />
+    <Button
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_back"
+        android:textColor="#Fff"
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Представление"/>
+    <Button
+        android:layout_marginTop="3dp"
+        android:background="@drawable/btn_back"
+        android:textColor="#Fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/map"
+        android:text="Ближайшие аптеки"/>
+
+</LinearLayout>
